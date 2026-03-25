@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h2>SGPA Calculator</h2>
+      <div class="form-container">
+        <input type="text" id="subject" placeholder="subject" />
+        <input type="number" id="credits" placeholder="credits" />
+        <select id="grade">
+          <option value="">Grade</option>
+          <option value="O">O</option>
+          <option value="A+">A+</option>
+          <option value="A">A</option>
+          <option value="B+">B+</option>
+          <option value="B">B</option>
+          <option value="F">F</option>
+          <option value="C">C</option>
+          <option value="P">P</option>
+        </select>
+        <button id="add-btn">add</button>
+      </div>
+    </div>
+
+    <div id="table-container">
+      <table border="1px solid black">
+        <tr>
+          <td class="highlighter">SUBJECT</td>
+          <td class="highlighter">CREDITS</td>
+          <td class="highlighter">GRADE</td>
+          <td class="highlighter">action</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <button id="calculate-btn">Calculate SGPA</button>
+    <br />
+    <h3>SGPA: <span id="output">0.00</span></h3>
+    <script src="SGPA.js"></script>
+  </body>
+</html>
