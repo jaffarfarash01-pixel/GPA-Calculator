@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eef1f5;
+    margin: 0;
+    text-align: center;
+    
+}
+
+#container{
+    margin-top: 40px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+#sem,
+#SGPA,
+#credits ,
+#subject ,
+#grade{
+    padding: 8px;
+    margin: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#add-btn{
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-btn:hover{
+    background-color: #218838;
+}
+
+#table-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.highlighter{
+     background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    background-color: white;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+thead tr{
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+tbody tr{
+    background-color: white;
+    color: black;
+}
+
+/* tr:first-child{
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+} */
+ .table-head{
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+#calculate-btn{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculate-btn:hover{
+    background-color: #0056b3;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+#output{
+    color: #007BFF;
+    font-weight: bold;
+}
