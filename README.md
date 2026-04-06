@@ -38,7 +38,7 @@ A simple and user-friendly web application to calculate **SGPA (Semester GPA)** 
 
 ## 🌐 Live Demo
 
-(Add your GitHub Pages link here after deployment)
+https://gpa-calculator-beta-wine.vercel.app/
 
 
 ---
