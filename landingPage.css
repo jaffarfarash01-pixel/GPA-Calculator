@@ -1,8 +1,8 @@
 
-body {
+#landing-body{
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #ffffff;
+    background-color: #eef1f5;
 
     display: flex;
     justify-content: center;
@@ -10,11 +10,13 @@ body {
     height: 100vh;
 }
 #main-container {
-    background: rgba(227, 227, 227, 0.522);
-    padding: 80px 100px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    width: 90%;
+    max-width: 350px;
+    background: white;
+    padding: 25px 20px;
+    border-radius: 15px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 #title {
     margin: 0;
@@ -29,6 +31,7 @@ body {
 #btn-group {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 #SGPA-btn, 
 #CGPA-btn {
@@ -52,3 +55,4 @@ body {
     transform: scale(1.05);
     opacity: 0.9;
 }
+
