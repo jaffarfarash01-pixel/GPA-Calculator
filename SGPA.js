@@ -43,6 +43,11 @@ addbtn.addEventListener("click", () => {
 // CALCULATE GPA BUTTON
 
 calbtn.addEventListener("click", () => {
+  if (subjects.length === 0) {
+    alert("No data found. Please add Subject details.");
+    return;
+  }
+
   let totalCredits = 0;
   let totalPoints = 0;
 
@@ -70,6 +75,6 @@ function deleteRow(btn) {
   let row = btn.parentNode.parentNode;
   let index = row.rowIndex - 1;
 
-  subjects.splice(index, 1); 
+  subjects.splice(index, 1);
   row.remove();
 }
